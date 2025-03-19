@@ -1,0 +1,58 @@
+.main-div {
+    background-color: rgb(192, 215, 241);
+    height: 100vh;
+    display: flex; /* Usa flexbox per il layout */
+    flex-direction: column; /* Mantieni la direzione delle colonne */
+    align-items: center; /* Centra gli elementi orizzontalmente */
+    justify-content: center; /* Centra gli elementi verticalmente */
+}
+
+.div-all-rows{
+    text-align: center;
+    margin-bottom: 250px;
+    flex-direction: column;
+}
+
+.game-title{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+.game-result{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+
+.div-row {
+    margin-top: 10px;
+    display: flex; /* Mantieni il layout flex per le righe */
+    justify-content: center; /* Centra le palline all'interno della riga */
+    margin-bottom: 10px; /* Aggiungi margine tra le righe, se necessario */
+}
+
+.button-menu{
+    width: 280px;
+    height: 100px;
+    background-color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2em;
+    color: blue;
+    border-radius: 50%;
+    border: none;
+}
+
+.button-menu:hover{
+    transform: scale(1.1);
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.dettagli-scommessa{
+    margin-top: -220px;
+    margin-bottom: 30px;
+}

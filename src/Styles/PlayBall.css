@@ -1,0 +1,29 @@
+
+.playball {
+    width: 400px ; /* Larghezza della pallina */
+    height: 400px ; /* Altezza della pallina per garantire che sia tonda */
+    background-color: yellow;
+    border-radius: 50%; /* Rende la pallina tonda */
+    text-align: center;
+    margin: 10px; /* Margine di 10px attorno alla pallina */
+    display: flex; /* Usa flexbox per centrare il contenuto */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.playball:hover{
+    transform: scale(1.08);
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.playballtext {
+    color: blue;
+    font-size: 2.6em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.playballtext:hover{
+    font-size: 3.5em;
+}

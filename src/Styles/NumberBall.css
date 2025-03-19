@@ -1,0 +1,29 @@
+
+.ball {
+    width: 150px; /* Larghezza della pallina */
+    height: 150px; /* Altezza della pallina per garantire che sia tonda */
+    background-color: yellow;
+    border-radius: 50%; /* Rende la pallina tonda */
+    text-align: center;
+    margin: 10px; /* Margine di 10px attorno alla pallina */
+    display: flex; /* Usa flexbox per centrare il contenuto */
+    justify-content: center; /* Centra orizzontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+.ball:hover{
+    transform: scale(1.1);
+    border: 3px solid blue;
+    cursor: pointer;
+}
+
+.number {
+    color: blue;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.number:hover{
+    font-size: 2.5em;
+}

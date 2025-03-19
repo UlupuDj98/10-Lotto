@@ -1,0 +1,63 @@
+.main-div {
+    background-color: rgb(192, 215, 241);
+    height: 100vh;
+    display: flex; /* Usa flexbox per il layout */
+    flex-direction: column; /* Mantieni la direzione delle colonne */
+    align-items: center; /* Centra gli elementi orizzontalmente */
+    justify-content: center; /* Centra gli elementi verticalmente */
+}
+
+.game-title{
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    font-size: 2.4em;
+    font-weight: 800;
+}
+
+
+.home-title{
+    margin-top: -80px;
+    margin-bottom: 60px;
+ 
+}
+
+.div-main-ball{
+   margin-bottom: 300px;
+}
+
+.div-scommessa{
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.casella{
+    width: 30px;
+    height: 40px;
+    margin: 8px;
+    border: 2px solid blue;
+}
+
+.casella-importo{
+    width: 50px;
+    height: 40px;
+    border: 2px solid blue;
+}
+
+.info-1{
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.info-2{
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.infotext{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+
+
+
